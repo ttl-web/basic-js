@@ -18,7 +18,7 @@ function countCats(matrix) {
   // Remove line below and write your code here
   let counter = 0;
 	for (let i = 0; i < matrix.length; i += 1) {
-		for (let j = 0; j < matrix.length; j += 1) {
+		for (let j = 0; j < matrix[i].length; j += 1) {
 			if (matrix[i][j] === '^^') {
 				counter += 1;
 			}
